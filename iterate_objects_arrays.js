@@ -36,3 +36,17 @@ function animalCan() {
 }
 
 animalCan();
+
+function test(params) {
+    if(params)
+        console.log("this is true");
+    else if(!params)
+        console.log("this is false");
+    else
+     console.log("no input!");
+     
+}
+
+test(true);
+test(false);
+test();
