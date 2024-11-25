@@ -22,3 +22,13 @@ mapped_array = [0,10,20,30,40,50].map( function(num) {
 
 console.log(mapped_array);
 
+const result = [];
+const drone = {
+    speed: 100,
+    color: 'yellow'
+}
+const droneKeys = Object.keys(drone);
+droneKeys.forEach( function(key) {
+    result.push(key, drone[key])
+})
+console.log(result)
